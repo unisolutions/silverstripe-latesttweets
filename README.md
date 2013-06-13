@@ -20,7 +20,7 @@ Simply install the module using the standard method.
 This module uses SS_Cache to reduce the amount of Twitter REST API requests. Default cache lifetime is 30min.
 You can change this value by putting this line in your _config.php (1800 is cache lifetime in seconds):
 
-	SS_Cache::set_cache_lifetime('TaTw_cache', 1800, 10);
+	SS_Cache::set_cache_lifetime('LatestTweets_cache', 1800, 10);
 
 ## Usage
 

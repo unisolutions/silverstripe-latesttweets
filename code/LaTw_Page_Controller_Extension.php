@@ -18,7 +18,7 @@ class LaTw_Page_Controller_Extension extends Extension {
 			return new ArrayList();
 		}
 
-		$cache = SS_Cache::factory('TaTw_cache');
+		$cache = SS_Cache::factory('LatestTweets_cache');
 		if (!($results = unserialize($cache->load(__FUNCTION__)))) {
 			$results = new ArrayList();
 

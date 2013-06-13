@@ -25,7 +25,8 @@ You can change this value by putting this line in your _config.php (1800 is cach
 ## Usage
 
 Simple. Just place $LatestTweets anywhere in your template.
-You can override default LatestTweets.ss if you custom latest tweet list template.
+
+If you're unhappy with default tweet list template you can override the default LatestTweets.ss template.
 
 ## Third parties
 

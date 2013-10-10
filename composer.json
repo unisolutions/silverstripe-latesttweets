@@ -1,5 +1,5 @@
 {
-	"name": "uniun/silverstripe-latesttweets",
+	"name": "unisolutions/silverstripe-latesttweets",
 	"type": "silverstripe-module",
 	"description": "Latest Tweets module for SilverStripe.",
 	"keywords": ["silverstripe", "twitter", "tweets"],
@@ -8,8 +8,6 @@
 		"email": "elvinas@unisolutions.eu"
 	}],
 	"require": {
-		"php": ">=5.3.2",
-		"silverstripe/framework": "3.*",
 		"silverstripe/cms": "3.*"
 	},
 	"minimum-stability": "dev"

@@ -10,5 +10,8 @@
 	"require": {
 		"silverstripe/cms": "3.*"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"extra": {
+		"installer-name": "latesttweets"
+	}
 }

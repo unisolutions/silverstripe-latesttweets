@@ -2,7 +2,7 @@
 
 class LaTw_SiteConfig_Extension extends DataExtension {
 
-	static $db = array(
+	private static $db = array(
 		'TwitterName' => 'Varchar(100)',
 		'TwitterConsumerKey' => 'Varchar(100)',
 		'TwitterConsumerSecret' => 'Varchar(100)',
